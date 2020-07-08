@@ -9,5 +9,5 @@ export {
   NewsPage,
   Members,
   Teachers,
-  Profile
+  Profile,
 }
