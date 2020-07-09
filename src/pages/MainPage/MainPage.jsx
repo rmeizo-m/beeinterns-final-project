@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-class MainPage extends Component{
-	render(){
-		return(
-			<>
-			Glavnaia
-			</>
-		);
-	}
+export default class MainPage extends Component {
+  render() {
+    return (
+      <>
+        Glavnaia
+      </>
+    );
+  }
 }
-
-export default MainPage;

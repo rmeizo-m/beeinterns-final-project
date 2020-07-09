@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-class Members extends Component{
-	render(){
-		return(
-			<>
-			Участники
-			</>
-		);
-	}
+export default class Members extends Component {
+  render() {
+    return (
+      <>
+        Участники
+      </>
+    );
+  }
 }
-
-export default Members;
