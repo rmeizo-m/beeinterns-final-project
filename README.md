@@ -1,3 +1,2 @@
-# react-redux-registration-login
+# react-signup-verification-forgot password
 
-React + Redux - User Registration and Login 
