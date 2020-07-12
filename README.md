@@ -1,7 +1,3 @@
-## Финальный проект Beeinterns
+# react-redux-registration-login
 
-
-### Члены команды №2:
-* Винников Евгений (Лид)
-* Козловцева Екатерина (Разработчик)
-* Хамидов Халим (Разработчик)
+React + Redux - User Registration and Login 
