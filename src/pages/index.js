@@ -5,9 +5,5 @@ import Teachers from './Teachers/Teachers';
 import Profile from './Profile/Profile';
 
 export {
-  MainPage,
-  NewsPage,
-  Members,
-  Teachers,
-  Profile,
+  MainPage, NewsPage, Members, Teachers, Profile,
 };

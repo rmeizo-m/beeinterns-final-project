@@ -1,12 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Grid.css';
 
-export default class Grid extends Component {
-  render() {
-    return (
-      <div className="container">
-        { this.props.children }
-      </div>
-    );
-  }
-}
+export default (props) => <div className="container">{ props.children }</div>;
