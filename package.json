@@ -22,14 +22,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "server": "node-env-run server --exec nodemon | pino-colada",
+    "server": "nodemon ./server/server.js",
     "dev": "run-p server start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": "react-app"
   },
