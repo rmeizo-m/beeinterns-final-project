@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
-// import logo from '../../assets/header/logo1.png';
-// import bar from '../../assets/header/hotdog.svg';
+import logo from '../../assets/header/logo1.png';
+import bar from '../../assets/header/hotdog.svg';
 // 
 const Header = () => {
 	return (
@@ -9,8 +9,8 @@ const Header = () => {
             <div className="container">
 				
 					<div className="logo-wrap">
-						{/* <img class="bar" src={bar} /> */}
-						{/* <img class="logo" src={logo} /> */}
+						<img class="bar" src={bar} alt="bar"/>
+						<img class="logo" src={logo} alt="logo"/>
 					</div>
 
 					<div className="title-menu">
