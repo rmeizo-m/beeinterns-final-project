@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import UserCard from './components/Usercard';
+import UserCard from '../UserCard/UserCard';
 import HomeWork from './components/HomeWork';
 import './User.scss';
 

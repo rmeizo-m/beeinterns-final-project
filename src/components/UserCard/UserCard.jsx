@@ -1,4 +1,5 @@
 import React from 'react';
+import './UserCard.scss';
 
 const UserCard = () => (
   <div className="user-card">
