@@ -53,7 +53,7 @@
       font-weight: bolder;
   }
 
-  .time{
+  .date{
       font-size: 12px;
       color: gray;
   }
@@ -67,18 +67,20 @@
   }
 
 
-  .text-area{
+  .news-content{
     min-width: 100px;
     line-height: 24px;
     margin-top: 24px;
     word-wrap: break-word;
-  }
-  
-  .news-text {
     display: inline-block;
     vertical-align: middle;
   }
   
+  /* .news-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+   */
   .news-message{
     max-height: 64px;
     background-color: rgb(243, 243,243);
@@ -118,14 +120,18 @@
     width: 39px;
     height: 34px;
     border: none;
-    background: url(/src/assets/messageButton/Path1.png);
-  }
+    background-image: url(../../assets/messageButton/Path.png);
+  }0
   
   .button[disabled] {
     width: 39px;
     height: 34px;
     border: none;
-    background: url(/src/assets/messageButton/Path.png);
+    background-image: url(../../assets/messageButton/Path1.png);
+  }
+
+  .text-load{
+    width: 5%;
   }
 
   .text-user{
