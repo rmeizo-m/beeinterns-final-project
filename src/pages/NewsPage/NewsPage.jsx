@@ -15,25 +15,23 @@ import enot from '../../assets/enot/enot7.png';
 export default class NewsPage extends Component {
   render() {
     return (
-      
-      <section class="news-content-wrapper">
 
-      <div class="news-area">
+      <section className="news-content-wrapper">
 
-        <NewsForm></NewsForm>
+        <div className="news-area">
 
-        <NewsList></NewsList>
-         
-      </div>
+          <NewsForm />
 
-       <div class="enot-wrapper">
-    <img class ="enot" id="enot" src={enot} alt=""/>
-    </div>
+          <NewsList />
 
-  </section>
+        </div>
 
+        <div className="enot-wrapper">
+          <img className="enot" id="enot" src={enot} alt="" />
+        </div>
 
-  
+      </section>
+
     );
   }
 }
