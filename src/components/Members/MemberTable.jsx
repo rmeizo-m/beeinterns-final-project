@@ -17,6 +17,12 @@ export default function MemberTable() {
       <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
       <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
       <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
+      <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
+      <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
+      <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
+      <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
+      <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
+      <MembersTableRow photoUrl="#" username="Екатарина Козловцева" gitlink="https://github.com/KateKozlovtseva" maillink="ea.kozlovtseva@physics.msu.ru" telink="@Ko-cat" />
     </table>
   );
 }
