@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import UserCard from '../UserCard/UserCard';
-import HomeWork from './components/HomeWork';
 import './User.scss';
 
 export default class User extends Component {
@@ -8,7 +7,16 @@ export default class User extends Component {
     return (
       <div className="user">
         <UserCard />
-        <HomeWork />
+          <div className="work">
+              <div className="work-info">
+                  Тесты
+                  <div className="work-caren">2 / 2</div>
+              </div>
+              <div className="work-info">
+                  Домашняя работа
+                  <div className="work-caren">12 / 42</div>
+              </div>
+          </div>
       </div>
     );
   }
