@@ -9,11 +9,11 @@ export default class User extends Component {
           <div className="work">
               <div className="work-info">
                   Тесты
-                  <div className="work-caren">2 / 2</div>
+                  <div className="work-caren"><span>2</span> / 2</div>
               </div>
               <div className="work-info">
                   Домашняя работа
-                  <div className="work-caren">12 / 42</div>
+                  <div className="work-caren"><span>12</span> / 42</div>
               </div>
           </div>
       </div>
