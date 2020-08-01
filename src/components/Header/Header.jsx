@@ -6,6 +6,7 @@ import bar from '../../assets/header/hotdog.svg';
 import cross from '../../assets/header/cross.svg';
 
 const menuItems = [
+  {link: "/", title: "Главная"},
   {link: "/news", title: "Новости"},
   {link: "/members", title: "Участники"},
   {link: "/teachers", title: "Менторы"},

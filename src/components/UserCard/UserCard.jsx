@@ -1,5 +1,5 @@
 import React from 'react';
-import './UserCard.scss';
+
 import githubImg from '../../assets/social/github.png';
 import maileImg from '../../assets/social/mail.png';
 import telegramImg from '../../assets/social/telegram.png';
