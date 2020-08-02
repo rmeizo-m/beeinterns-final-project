@@ -32,17 +32,17 @@ export default class MainPage extends Component {
 
               <div className="lesson-info">
 
-                <div className="lesson-name">
-                  <div>Введение в автосесты</div>
+                <div className="lesson-info__name">
+                  <div><span>1</span>Введение в автосесты</div>
                   <div>09.10.2020</div>
                 </div>
-                <div className="lesson-worck">
-                  <div className="lesson-teacher">
-                    <div>Павел Уколов</div>
-                    <div>Zoom/shdgc/sdjhbcjdsc</div>
+                <div className="lesson-info__worck">
+                  <div className="lesson-info__teacher">
+                    <div><div><img src="" alt=""/></div>Павел Уколов</div>
+                    <div><div><img src="" alt=""/></div>Zoom/shdgc/sdjhbcjdsc</div>
                   </div>
 
-                  <div className="lesson-teacher">
+                  <div className="lesson-info__teacher">
                     <button className="btn">Сдать</button>
                     <div>Га</div>
                   </div>

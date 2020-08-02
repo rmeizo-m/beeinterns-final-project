@@ -25,7 +25,7 @@
   &-contacts{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 8px;
 
 
     span{
@@ -77,18 +77,88 @@
     }
 }
 
-.calendar{
-  display: none;
+.lesson{
+  display: flex;
+  padding: 8px;
+
+  .calendar{
+    display: none;
+  }
+
+  &-inner{
+    flex: 1;
+  }
+  &-form{
+
+  }
+  &-card{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    height:100vh;
+    padding: 8px;
+  }
+  &-info{
+    padding: 8px 0;
+    border-bottom: 1px solid #999999;
+    &__name{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      div{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 12px;
+        color: #000000;
+        flex-shrink: 1;
+
+        span{
+          color: #EFA20F;
+          margin-right: 8px;
+          font-size: 12px;
+        }
+      }
+    }
+    &__worck{
+      display: flex;
+      justify-content: space-between;
+    }
+    &__teacher{
+      display: flex;
+      flex-direction: column;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+      /* identical to box height */
+      div{
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.8);
+        margin-top: 15px;
+        div{
+          display: flex;
+          width: 16px;
+          height: 16px;
+          img{
+            width: 100%;
+            height: auto;
+          }
+      }
+
+      }
+    }
+  }
 }
 
-@media (min-width: 420px){
+
+@media (min-width: 768px){
   .user{
     display: flex;
     flex-direction: row;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     padding: 3px 47px 3px 18px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     &-card{
       box-shadow: none;
     }
@@ -97,9 +167,8 @@
       height: 123px;
       background: #FABC15;
       border-radius: 100px;
-      margin-right: 70px;
+      margin-right: 15px;
     }
-
     &-info{
       h3{
         font-size: 20px;
@@ -112,6 +181,8 @@
     }
   }
 
+
+
   .work{
     margin: 0;
     flex-grow: 1;
@@ -120,4 +191,27 @@
   &-info{
     font-size: 16px;
   }
+
+  .lesson{
+    height: 550px;
+     .calendar{
+       display: block;
+       flex-shrink: 1;
+       flex-basis: 200px;
+       height: 200px;
+       background: #FAFAFA;
+       box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.22), 0px 19px 38px rgba(0, 0, 0, 0.3);
+       border-radius: 2px;
+       margin-right: 100px;
+     }
+    &-inner{
+      flex-shrink: 2;
+    }
+    &-form{
+
+    }
+    &-card{
+      padding: 16px;
+    }
+   }
 }
