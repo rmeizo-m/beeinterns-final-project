@@ -8,7 +8,7 @@ const UserCard = () => (
   <div className="user-card">
     <div className="user-img"><img src="" alt="" /></div>
     <div className="user-info">
-      <h3>Иванов Иван Петрович</h3>
+      <h3>Винников Евгений</h3>
       {/* Тут через мап будет парситься социальные сети */}
       <div className="user-contacts">
         <div className="user-social__img"><img src={githubImg} alt="" /></div>

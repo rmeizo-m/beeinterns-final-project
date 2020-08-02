@@ -11,10 +11,10 @@
     height: 65px;
     background: #FABC15;
     border-radius: 100px;
+    margin-right: 5px;
   }
 
   &-info{
-    margin-left: 5px;
     h3{
       font-family: Montserrat;
       font-weight: 600;
@@ -31,6 +31,7 @@
     span{
       font-family: Montserrat;
       font-size: 10px;
+      margin-left: 8px;
     }
   }
   &-social__img{
@@ -78,4 +79,45 @@
 
 .calendar{
   display: none;
+}
+
+@media (min-width: 420px){
+  .user{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 3px 47px 3px 18px;
+    margin-bottom: 60px;
+    &-card{
+      box-shadow: none;
+    }
+    &-img{
+      width: 123px;
+      height: 123px;
+      background: #FABC15;
+      border-radius: 100px;
+      margin-right: 70px;
+    }
+
+    &-info{
+      h3{
+        font-size: 20px;
+      }
+    }
+    &-contacts{
+      span{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .work{
+    margin: 0;
+    flex-grow: 1;
+    padding: 8px 0;
+  }
+  &-info{
+    font-size: 16px;
+  }
 }
