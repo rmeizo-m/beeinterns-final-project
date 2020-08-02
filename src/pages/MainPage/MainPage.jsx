@@ -8,7 +8,9 @@ export default class MainPage extends Component {
       <section className="inner">
         <User />
         <div className="lesson">
-          <div>
+          <div className="calendar">Calendar</div>
+
+          <div className="lesson-inner">
             <form className="lesson-form" action="">
               <select className="lesson-select" name="" id="">
                 <option value="Все">Все</option>
@@ -25,7 +27,9 @@ export default class MainPage extends Component {
                 <option value="Не сданы">Июнь</option>
               </select>
             </form>
+
             <div className="lesson-card">
+
               <div className="lesson-info">
 
                 <div className="lesson-name">
@@ -45,6 +49,8 @@ export default class MainPage extends Component {
                 </div>
 
               </div>
+
+
             </div>
           </div>
 
