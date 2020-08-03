@@ -1,0 +1,42 @@
+.work{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 42px 0px 18px 0px;
+
+
+  &-info {
+    width: 50%;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+
+
+    span{
+      color: #FABC15;
+      font-size: 42px;
+    }
+
+
+  }
+  &-caren{
+    font-size: 42px;
+    line-height: 49px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 31px 0px;
+  }
+}
+
+@media (min-width: 768px){
+  .work{
+    margin: 0;
+    flex-grow: 1;
+    padding: 8px 0;
+  }
+  &-info{
+    font-size: 16px;
+  }
+}
