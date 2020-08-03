@@ -18,7 +18,7 @@ export default class MainPage extends Component {
                 <option value="Не сданы">Не сданы</option>
               </select>
               <select className="lesson-select" name="" id="">
-                <option style={{ display: 'none' }} value="Все">Месяц</option>
+                <option value="Все">Месяц</option>
                 <option value="Сданы">Январь</option>
                 <option value="Не сданы">Февраль</option>
                 <option value="Не сданы">Март</option>
