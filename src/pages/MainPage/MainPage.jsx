@@ -43,7 +43,7 @@ export default class MainPage extends Component {
                   </div>
 
                   <div className="lesson-info__teacher">
-                    <button className="btn">Сдать</button>
+                    <button className="btn btn-lesson">Сдать</button>
                     <div>Га</div>
                   </div>
                 </div>
