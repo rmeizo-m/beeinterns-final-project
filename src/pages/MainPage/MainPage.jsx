@@ -9,7 +9,6 @@ export default class MainPage extends Component {
         <User />
         <div className="lesson">
           <div className="calendar">Calendar</div>
-
           <div className="lesson-inner">
             <form className="lesson-form" action="">
               <select className="lesson-select" name="" id="">
@@ -27,11 +26,8 @@ export default class MainPage extends Component {
                 <option value="Не сданы">Июнь</option>
               </select>
             </form>
-
             <div className="lesson-card">
-
               <div className="lesson-info">
-
                 <div className="lesson-info__name">
                   <div><span>1</span>Введение в автосесты</div>
                   <div>09.10.2020</div>
@@ -41,16 +37,12 @@ export default class MainPage extends Component {
                     <div><div><img src="" alt=""/></div>Павел Уколов</div>
                     <div><div><img src="" alt=""/></div>Zoom/shdgc/sdjhbcjdsc</div>
                   </div>
-
                   <div className="lesson-info__teacher">
                     <button className="btn btn-lesson">Сдать</button>
                     <div>Га</div>
                   </div>
                 </div>
-
               </div>
-
-
             </div>
           </div>
 
