@@ -1,11 +1,11 @@
 import React from 'react';
 import './Lesson.scss';
+
 import persone from '../../assets/home/persone.svg';
 import location from '../../assets/home/location.svg';
 import vector from '../../assets/home/vector.svg';
 
 const Lesson = () => (
-  <div className="lesson-card">
     <div className="lesson-info">
       <div className="lesson-info__name">
         <div>
@@ -33,7 +33,6 @@ const Lesson = () => (
         </div>
       </div>
     </div>
-  </div>
 );
 
 export default Lesson;
