@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import { User } from '../../components';
+import { User, Lesson } from '../../components';
 import './MainPage.scss';
+
+import persone from '../../assets/home/persone.svg';
+import location from '../../assets/home/location.svg';
+import vector from '../../assets/home/vector.svg';
 
 export default class MainPage extends Component {
   render() {
@@ -26,27 +30,8 @@ export default class MainPage extends Component {
                 <option value="Не сданы">Июнь</option>
               </select>
             </form>
-            <div className="lesson-card">
-              <div className="lesson-info">
-                <div className="lesson-info__name">
-                  <div><span>1</span>Введение в автосесты</div>
-                  <div>09.10.2020</div>
-                </div>
-                <div className="lesson-info__worck">
-                  <div className="lesson-info__teacher">
-                    <div><div><img src="" alt=""/></div>Павел Уколов</div>
-                    <div><div><img src="" alt=""/></div>Zoom/shdgc/sdjhbcjdsc</div>
-                  </div>
-                  <div className="lesson-info__teacher">
-                    <button className="btn btn-lesson">Сдать</button>
-                    <div>Га</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Lesson />
           </div>
-
-
         </div>
       </section>
     );
