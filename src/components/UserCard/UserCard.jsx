@@ -1,4 +1,5 @@
 import React from 'react';
+import Avatar from '../Avatar/Avatar';
 import './UseCard.scss';
 import githubImg from '../../assets/social/github.png';
 import maileImg from '../../assets/social/mail.png';
@@ -6,7 +7,10 @@ import telegramImg from '../../assets/social/telegram.png';
 
 const UserCard = () => (
   <div className="user-card">
-    <div className="user-img"><img src="" alt="" /></div>
+    <Avatar
+      img="https://whatsism.com/uploads/posts/2018-07/1530546770_rmk_vdjbx10.jpg"
+      avatar={true}
+    />
     <div className="user-info">
       <h3>Винников Евгений</h3>
       {/* Тут через мап будет парситься социальные сети */}
