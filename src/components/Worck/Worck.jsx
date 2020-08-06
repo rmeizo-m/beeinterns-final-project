@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import UserCard from '../UserCard/UserCard';
-import './User.scss';
+import './Worck.scss';
 
-export default class User extends Component {
+export default class Worck extends Component {
   render() {
     return (
       <div className="user">
