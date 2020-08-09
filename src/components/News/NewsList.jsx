@@ -25,7 +25,8 @@ function NewsListItem(props) {
 
       <div class="text-info">
         <div class="username">{props.username}</div>
-<div class="date">{props.date}</div>
+    
+    <div class="date">{props.date}</div>
       </div>
     </div>
 
