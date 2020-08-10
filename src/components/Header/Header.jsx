@@ -38,7 +38,7 @@ const Header = () => {
   <div className="header">
     <div className="container">
       <div className="logo-wrap">
-        <a class= "bar-cross" onClick={toggleMenu}>
+        <a className = "bar-cross" onClick={toggleMenu}>
         {menuVisible?
           <img className="cross" src={cross} alt="cross" />:
           <img className="bar" src={bar} alt="bar" />

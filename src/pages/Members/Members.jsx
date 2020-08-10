@@ -11,8 +11,8 @@ export default class Members extends Component {
 
         <MemberTable></MemberTable>
 
-        <div class="member-enot-wrapper">
-          <img class ="member-enot" id="enot1" src={enot} alt="" />
+        <div className="member-enot-wrapper">
+          <img className="member-enot" id="enot1" src={enot} alt="" />
         </div>
       </div>
     </>);

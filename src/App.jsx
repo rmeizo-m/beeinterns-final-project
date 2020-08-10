@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>
-      {location.pathname != '/login' && <Header />}
+      {location.pathname !== '/login' && <Header />}
       <Grid>
         <Switch>
           <Route exact path="/" component={() => (<MainPage />)} />
