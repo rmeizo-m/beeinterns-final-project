@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { User, Lesson, Select } from '../../components';
+import React from 'react';
+import { Worck, Lesson, Select } from '../../components';
 
 import './MainPage.scss';
 
@@ -116,7 +116,7 @@ const MainPage = () => {
 
   return (
     <section className="inner">
-      <User />
+      <Worck />
       <div className="lesson">
         <div className="calendar">Calendar</div>
         <div className="lesson-inner">
