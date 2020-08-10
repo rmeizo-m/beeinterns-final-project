@@ -8,6 +8,7 @@ import cross from '../../assets/header/cross.svg';
 const menuItems = [
   {link: "/", title: "Главная"},
   {link: "/news", title: "Новости"},
+  {link: "/news2", title: "Новости2"},
   {link: "/members", title: "Участники"},
   {link: "/teachers", title: "Менторы"},
   {link: "/login", title: "Выход"}
@@ -16,6 +17,7 @@ const menuItems = [
 const pageItems = [
   {link: "/", title: "Главная"},
   {link: "/news", title: "Новости"},
+  {link: "/news2", title: "Новости2"},
   {link: "/members", title: "Участники"},
   {link: "/teachers", title: "Менторы"},
   {link: "/login", title: "Вход"}
