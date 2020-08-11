@@ -1,0 +1,90 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  13.11.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/rmeizo/Рабочий стол/final-project/package.json: Unexpected token s in JSON at position 0
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  sudo npm{
+    "name": "Homework-final",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^1.2.30",
+      "@fortawesome/free-brands-svg-icons": "^5.14.0",
+      "@fortawesome/free-solid-svg-icons": "^5.14.0",
+      "@fortawesome/react-fontawesome": "^0.1.11",
+      "@reduxjs/toolkit": "^1.4.0",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "axios": "^0.19.2",
+      "node-sass": "^4.14.1",
+      "prop-types": "^15.7.2",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-redux": "^7.2.0",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.1",
+      "redux": "^4.0.5",
+      "redux-saga": "^1.1.3",
+      "redux-thunk": "^2.3.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "format": "prettier --write \"src/**/*.{js,jsx}\"",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "eslint": "^7.4.0",
+      "eslint-config-airbnb": "^18.2.0",
+      "eslint-config-prettier": "^6.11.0",
+      "eslint-plugin-import": "^2.22.0",
+      "eslint-plugin-jsx-a11y": "^6.3.1",
+      "eslint-plugin-prettier": "^3.1.4",
+      "eslint-plugin-react": "^7.20.3",
+      "eslint-plugin-react-hooks": "^4.0.6",
+      "prettier": "^2.0.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

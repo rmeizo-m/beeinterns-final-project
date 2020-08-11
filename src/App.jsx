@@ -12,7 +12,6 @@ import {
   Login,
 } from './pages';
 
-import './App.css';
 
 function App() {
   const location = useLocation();

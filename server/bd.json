@@ -1,0 +1,71 @@
+{
+  "user": [
+    {
+      "id": 0,
+      "userName": "Винников Евгений",
+      "avatar": false,
+      "img": "",
+      "email": "vinikove@inbox.ru",
+      "telegram": "@Ostwind095",
+      "github": "github.com"
+    }
+  ],
+  "lesson": [
+      {
+        "id": 0,
+        "lessonName": "Введение в автотесты",
+        "zoom": "",
+        "date": "20.05.2010",
+        "status": false
+      },
+    {
+      "id": 1,
+      "lessonName": "Введение в автотесты",
+      "zoom": "",
+      "date": "20.05.2010",
+      "status": false
+    },
+    {
+      "id": 2,
+      "lessonName": "Введение в автотесты",
+      "zoom": "",
+      "date": "20.05.2010",
+      "status": false
+    },
+    {
+      "id": 3,
+      "lessonName": "Введение в автотесты",
+      "zoom": "",
+      "date": "20.05.2010",
+      "status": false
+    },
+    {
+      "id": 4,
+      "lessonName": "Введение в автотесты",
+      "zoom": "",
+      "date": "20.05.2010",
+      "status": false
+    },
+    {
+      "id": 5,
+      "lessonName": "Введение в автотесты",
+      "zoom": "",
+      "date": "20.05.2010",
+      "status": false
+    },
+    {
+      "id": 5,
+      "lessonName": "Введение в автотесты",
+      "zoom": "",
+      "date": "20.05.2010",
+      "status": false
+    },
+    {
+      "id": 6,
+      "lessonName": "Введение в автотесты",
+      "zoom": "",
+      "date": "20.05.2010",
+      "status": false
+    }
+  ]
+}
