@@ -6,7 +6,6 @@ import { Header, Grid } from './components';
 import {
   MainPage,
   NewsPage,
-  NewsPage2,
   Members,
   Teachers,
   Login,
@@ -23,7 +22,6 @@ function App() {
         <Switch>
           <Route exact path="/" component={() => (<MainPage />)} />
           <Route path="/news" component={() => (<NewsPage />)} />
-          {/* <Route path="/news2" component={() => (<NewsPage2 />)} /> */}
           <Route path="/news2" component={() => (<PostsList />)} />
           <Route path="/members" component={() => (<Members />)} />
           <Route path="/teachers" component={() => (<Teachers />)} />
