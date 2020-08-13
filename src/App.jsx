@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch, useLocation } from 'react-router-dom';
-import { PostsList } from './app/features/posts/PostsList'
+import { PostsList } from './app/features/posts/PostsList';
+import { AddPostForm } from './app/features/posts/AddPostForm';
 
 import { Header, Grid } from './components';
 import {
@@ -22,7 +23,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={() => (<MainPage />)} />
           <Route path="/news" component={() => (<NewsPage />)} />
-          <Route path="/news2" component={() => (<PostsList />)} />
+          <Route path="/news2" component={() => (<React.Fragment>
+            <AddPostForm />
+          <PostsList /></React.Fragment>)} />
           <Route path="/members" component={() => (<Members />)} />
           <Route path="/teachers" component={() => (<Teachers />)} />
           <Route path="/login" component={() => (<Login />)} />

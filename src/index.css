@@ -22,3 +22,56 @@
 		margin-top: 80px;
 	}
 }
+
+/* my own css */
+
+
+  /* Main content */
+  
+  section {
+	margin-top: 70px;
+	min-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 1.5rem;
+  }
+  
+  .post-excerpt {
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+	padding: 0.25rem 0.25rem;
+	border: 1px solid rgb(177, 174, 174);
+	border-radius: 7px;
+  }
+  
+   .posts-list .post-excerpt + .post-excerpt {
+	margin-top: 0.5rem;
+  } 
+  
+  .post-excerpt h3 {
+	margin: 0;
+	font-size: 1.5rem;
+  }
+  
+  p.post-content {
+	margin-top: 10px;
+  }
+
+
+  h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+}
+
+.form_news {
+	position: absolute;
+	top: 100px; 
+	left: 500px; 
+	margin: 0 auto;
+}
