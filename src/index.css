@@ -70,8 +70,12 @@
 }
 
 .form_news {
-	position: absolute;
+	display: flex;
+	position: realtive;
 	top: 100px; 
-	left: 500px; 
+	left: 50px; 
 	margin: 0 auto;
+}
+.postTitle, .postContent {
+	display: flex; 
 }
